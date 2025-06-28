@@ -1,0 +1,108 @@
+/* Fundo com gradiente azul */
+
+body {
+
+  margin: 0;
+
+  font-family: Arial, sans-serif;
+
+  background: #090979;
+
+  background: linear-gradient(90deg, rgba(9, 9, 121, 1) 13%, rgba(7, 52, 149, 1) 40%, rgba(0, 212, 255, 1) 71%);
+
+  color: white;
+
+  min-height: 100vh;
+
+  display: flex;
+
+  flex-direction: column;
+
+}
+
+
+
+/* Menu no topo */
+
+menu {
+
+  background-color: rgba(0, 0, 0, 0.6);
+
+  padding: 15px 20px;
+
+  text-align: right;
+
+}
+
+
+
+menu a {
+
+  color: #00ccff;
+
+  text-decoration: none;
+
+  font-weight: bold;
+
+  font-size: 1rem;
+
+}
+
+
+
+menu a:hover {
+
+  text-decoration: underline;
+
+}
+
+
+
+/* Conteúdo principal centralizado */
+
+main {
+
+  flex: 1;
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  text-align: center;
+
+}
+
+
+
+main h1 {
+
+  font-size: 3em;
+
+  color: white;
+
+  margin: 0;
+
+}
+
+
+
+/* Rodapé no fim da página */
+
+footer {
+
+  background-color: rgba(0, 0, 0, 0.6);
+
+  text-align: center;
+
+  padding: 15px;
+
+  font-size: 0.9em;
+
+  color: #ccc;
+
+}
+
+
+Enviar mensagem para social
