@@ -1,0 +1,37 @@
+body{background: #5652ab;
+background: linear-gradient(90deg, rgba(86, 82, 171, 1) 0%, rgba(9, 9, 121, 1) 53%, rgba(56, 189, 199, 1) 100%);
+
+display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+form {
+  background: #fff;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  gap:7px;
+  padding: 70px;
+  width: 150px;
+  margin-left: 70px;
+  margin-top: 100px;
+  /*arrendondar as bordas*/
+  border-radius: 10px;
+}
+
+form input {
+  border: 1px solid #000;
+  padding: 7px;
+  border-radius: 5px;
+  outline: none;
+}
+
+
+form input:hover {
+  border: 1px solid rgb(78, 78, 214) 
+}
+
+from label {
+  color: rpg()
+}
